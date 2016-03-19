@@ -1,0 +1,62 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.subheadline {
+  margin-top: 0;
+}
+
+.external-links {
+  padding: 20px 0;
+}
+
+.external-links a {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.external-links a:last-child {
+  margin-bottom: 0;
+}
+
+.callout {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.bxslider li {
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  margin-top: -16px; /* hack */
+}
+
+.bx-wrapper .bx-viewport {
+	background: #000000;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
