@@ -4,6 +4,7 @@ body {
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
+  color: #111;
 }
 
 h1 {
@@ -13,21 +14,56 @@ h1 {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #c80e0e;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #ad2a2a;
+}
+
+a.button {
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #c80e0e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 4px solid #c80e0e;
+  transition: all 0.3s;
+}
+
+a.button:hover {
+  background-color: transparent;
+  color: #c80e0e;
+}
+
 .subheadline {
   margin-top: 0;
 }
 
 .external-links {
-  padding: 20px 0;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Viga', sans-serif;
 }
 
 .external-links a {
-  display: block;
-  margin-bottom: 15px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-right: 1px solid transparent;
 }
 
 .external-links a:last-child {
-  margin-bottom: 0;
+  border-right: 0;
 }
 
 .callout {
@@ -48,6 +84,10 @@ footer {
   padding: 20px 0;
 }
 
+footer a.button {
+  margin: 40px 0 20px 0;
+}
+
 .bxslider li {
   width: 100%;
   height: 350px;
@@ -57,10 +97,27 @@ footer {
 }
 
 .bx-wrapper .bx-viewport {
-	background: #000000;
+  background: #000000;
 }
 
 .logo {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 600px) {
+  .external-links {
+    flex-direction: row;
+  }
+
+  .external-links a {
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+    border-right-color: #111;
+  }
+
+  .external-links a:last-child {
+    margin: 0;
+    padding: 0;
+  }
 }
