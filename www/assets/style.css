@@ -1,12 +1,14 @@
 body {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   max-width: 800px;
   padding: 20px;
   margin: 0 auto;
 }
 
 h1 {
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -29,6 +31,8 @@ h1 {
 }
 
 .callout {
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: bold;
