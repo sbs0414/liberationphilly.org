@@ -7,6 +7,10 @@ body {
   color: #111;
 }
 
+ol {
+  text-align: left;
+}
+
 h1 {
   font-family: 'Viga', sans-serif;
   letter-spacing: 2px;
@@ -82,10 +86,6 @@ footer p {
 
 footer {
   padding: 20px 0;
-}
-
-footer a.button {
-  margin: 40px 0 20px 0;
 }
 
 .bxslider li {
