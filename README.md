@@ -15,4 +15,4 @@ Dokku git URL:
     dokku@dxephilly.org:dxephilly.org
 
 # License
-Aside from the DxE logo, files in this repository are copyright 2016 dxephilly.org contributors and licensed under GNU GPL version 3.0. For the full license see the LICENSE file.
+Aside from the DxE logo, files in this repository are copyright 2016 DxE Philadelphia and licensed under GNU GPL version 3.0. For the full license see the LICENSE file.
