@@ -11,9 +11,12 @@ ol {
   text-align: left;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Viga', sans-serif;
   letter-spacing: 2px;
+}
+
+h1 {
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -48,6 +51,7 @@ a.button:hover {
 }
 
 .subheadline {
+  font-size: 18px;
   margin-top: 0;
 }
 
@@ -68,6 +72,11 @@ a.button:hover {
 
 .external-links a:last-child {
   border-right: 0;
+}
+
+.social-icons a i {
+  font-size: 36px;
+  padding: 4px;
 }
 
 .callout {
@@ -103,6 +112,51 @@ footer {
 .logo {
   width: 100%;
   height: auto;
+}
+
+.box {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 40px 0;
+}
+
+.box h2:first-child {
+  margin-top: 0;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  max-width: 265px;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.event .date .plaque {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.event .date .month {
+  line-height: 0.9;
+  margin-bottom: 4px;
+}
+
+.event .date .day {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 0.75;
+}
+
+.event .info .title {
+  font-weight: bold;
+}
+
+.event .info .location a {
+  color: #111;
 }
 
 @media (min-width: 600px) {
