@@ -55,6 +55,57 @@ a.button:hover {
   margin-top: 0;
 }
 
+.banner {
+  font-family: 'Viga', sans-serif;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.banner .logo {
+  margin: 0 8px;
+}
+
+.banner .dxe-line {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .dxe-line span:first-child {
+  margin: 0 8px;
+}
+
+.banner .dxe-line span:last-child {
+  margin: 0 8px;
+  letter-spacing: 2px;
+}
+
+.banner .philly-line {
+  margin: 0 8px;
+  font-size: 32px;
+  color: #afb0b2;
+}
+
+@media (max-width: 810px) {
+  .banner .dxe-line {
+    flex-wrap: wrap;
+  }
+  .banner .logo {
+    order: 3;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .banner .dxe-line {
+    font-size: 12vw;
+  }
+  .banner .philly-line {
+    font-size: 8vw;
+  }
+}
+
 .external-links {
   padding: 10px 0;
   display: flex;
@@ -99,19 +150,15 @@ footer {
 
 .bxslider li {
   width: 100%;
-  height: 350px;
+  height: 60vw;
+  max-height: 350px;
   background-size: cover;
   background-position: center;
   margin-top: -16px; /* hack */
 }
 
 .bx-wrapper .bx-viewport {
-  background: #000000;
-}
-
-.logo {
-  width: 100%;
-  height: auto;
+  background: #111;
 }
 
 .box {
