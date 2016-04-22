@@ -65,6 +65,11 @@ a.button:hover {
   margin: 0 8px;
 }
 
+.banner .logo img {
+  width: 80px;
+  height: auto;
+}
+
 .banner .dxe-line {
   font-size: 48px;
   display: flex;
