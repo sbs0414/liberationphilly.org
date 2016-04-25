@@ -1,3 +1,7 @@
+html {
+  min-width: 300px;
+}
+
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -195,6 +199,7 @@ footer {
 .event .date .month {
   line-height: 0.9;
   margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
 .event .date .day {
@@ -203,8 +208,13 @@ footer {
   line-height: 0.75;
 }
 
+.event .info {
+  padding-left: 10px;
+}
+
 .event .info .title {
   font-weight: bold;
+  font-size: 14px;
 }
 
 .event .info .location a {
