@@ -54,7 +54,9 @@ $(document).ready(function(){
       }
       $(event_el).find('.month').text(months[start_time.getMonth()]);
       $(event_el).find('.day').text(start_time.getDate());
-      $(event_time_el).html(start_end_time_string(start_time, end_time));
+      if (start_time || end_time) {
+        $(event_time_el).html(start_end_time_string(start_time, end_time));
+      }
       $(event_el).find('.location a span').text(data.place.name);
       $(event_el).find('.location a').attr('href', 'https://www.google.com/maps/place/'+encodeURIComponent(data.place.name));
       $(event_el).show();
