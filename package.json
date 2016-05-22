@@ -1,0 +1,24 @@
+{
+  "name": "dxephilly.org",
+  "version": "1.0.0",
+  "description": "Website for Direct Action Everywhere Philadelphia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/directactioneverywhere/dxephilly.org.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/directactioneverywhere/dxephilly.org/issues"
+  },
+  "homepage": "https://github.com/directactioneverywhere/dxephilly.org#readme",
+  "dependencies": {
+    "bxslider": "^4.2.6",
+    "express": "^4.13.4",
+    "harp": "^0.20.3"
+  }
+}

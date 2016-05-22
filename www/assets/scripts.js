@@ -1,6 +1,11 @@
 $(document).ready(function(){
 
-  Stripe.setPublishableKey('pk_live_M37JUfbU7i9XlQWeGwFNKhdR');
+  // Use live key on live site only
+  if (window.location.protocol == 'https:' && window.location.hostname == 'dxephilly.org') {
+    Stripe.setPublishableKey('pk_live_M37JUfbU7i9XlQWeGwFNKhdR');
+  } else {
+    Stripe.setPublishableKey('pk_test_mhiY777RppMZKb6zYsnaZKXE');
+  }
 
   $('.bxslider').bxSlider({
     auto: true,
@@ -37,7 +42,7 @@ $(document).ready(function(){
     }
   }
 
-  $.get('//api.dxephilly.org/facebook/events/upcoming/next', function(data) {
+  $.get('https://api.dxephilly.org/facebook/events/upcoming/next', function(data) {
     if (data) {
       var event_el = $('#next-event');
       var event_link_el = $(event_el).find('.title a');
@@ -79,7 +84,7 @@ $(document).ready(function(){
         'amount': $('#donate-amount').val(),
         'frequency': $('#donate-frequency').val()
       };
-      $.post('//api.dxephilly.org/donate', donateData, function(data, status) {
+      $.post('https://api.dxephilly.org/donate', donateData, function(data, status) {
         var form = $('#donate');
         if (status != "success") {
           $('.donations .notice.failure').show();
