@@ -272,6 +272,7 @@ section.donations {
     width: auto;
     cursor: pointer;
     transition: all 0.33s;
+    background-color: #ddd;
     &:hover {
       background-color: #ccc;
     }
