@@ -236,9 +236,7 @@ section.donations {
   overflow: auto;
   border: 1px solid #ccc;
   border-radius: 4px;
-  div {
-    display: flex;
-  }
+  text-align: left;
   > div {
     margin: 10px 0;
     padding: 10px 0;
@@ -247,19 +245,26 @@ section.donations {
       border-bottom: none;
     }
   }
-  .card-meta > div {
-    flex: 1;
+  .card-meta {
+    display: flex;
+     > div {
+       flex: 1;
+     }
+     input {
+       width: 100%;
+       flex: 1;
+     }
   }
   label {
     padding-right: 20px;
     font-weight: bold;
+    display: block;
   }
   input {
     border: none;
     outline: none;
     flex: 1;
     font-size: 1rem;
-    width: 0;
     font-family: 'Open Sans', sans-serif;
     &[disabled] {
       background-color: white;
@@ -273,6 +278,8 @@ section.donations {
     cursor: pointer;
     transition: all 0.33s;
     background-color: #ddd;
+    margin: 0 auto;
+    display: block;
     &:hover {
       background-color: #ccc;
     }
@@ -287,9 +294,21 @@ section.donations {
   .frequency {
     align-self: flex-start;
     margin-right: 20px;
+    margin-bottom: 20px;
   }
   .submit {
     display: block;
+  }
+  @media(min-width: 400px) {
+    div {
+      display: flex;
+    }
+    label {
+      display: inline;
+    }
+    input {
+      width: 0;
+    }
   }
 }
 
