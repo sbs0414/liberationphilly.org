@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  Stripe.setPublishableKey('pk_test_Li1S1WLu7Z3xy9MuPL3lUliV');
+  Stripe.setPublishableKey('pk_live_M37JUfbU7i9XlQWeGwFNKhdR');
 
   $('.bxslider').bxSlider({
     auto: true,
