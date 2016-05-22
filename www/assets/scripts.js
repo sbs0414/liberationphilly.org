@@ -108,4 +108,9 @@ $(document).ready(function(){
     return false;
   });
 
+  $('input[name="number"]').payment('formatCardNumber');
+  $('input[name="exp"]').payment('formatCardExpiry');
+  $('input[name="cvc"]').payment('formatCardCVC');
+  $('input[name="donate-amount"]').payment('restrictNumeric');
+
 });
