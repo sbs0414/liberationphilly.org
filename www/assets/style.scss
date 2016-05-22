@@ -6,9 +6,19 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   max-width: 800px;
-  padding: 20px;
+  padding: 0 20px;
   margin: 0 auto;
   color: #111;
+}
+
+body > {
+  header, section, footer {
+    margin: 40px 0;
+  }
+}
+
+body > header {
+  margin: 60px 0;
 }
 
 ol {
@@ -61,7 +71,7 @@ a.button {
 .banner {
   font-family: 'Viga', sans-serif;
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 40px 0;
   .logo {
     margin: 0 8px;
     img {
@@ -113,7 +123,7 @@ a.button {
 }
 
 .external-links {
-  padding: 10px 0;
+  margin: 20px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -144,9 +154,12 @@ a.button {
   }
 }
 
-.social-icons a i {
-  font-size: 36px;
-  padding: 4px;
+.social-icons {
+  margin: 20px 0;
+  a i {
+    font-size: 36px;
+    padding: 4px;
+  }
 }
 
 .callout {
@@ -159,11 +172,14 @@ a.button {
 }
 
 footer {
-  padding: 20px 0;
   p {
     margin: 0;
     font-weight: bold;
   }
+}
+
+.slideshow {
+  margin: 30px 0;
 }
 
 .bxslider {
@@ -182,11 +198,9 @@ footer {
 .box {
   background-color: #eee;
   border-radius: 5px;
-  padding: 20px 10px;
+  padding: 0 10px;
   margin: 40px 0;
-  h2:first-child {
-    margin-top: 0;
-  }
+  overflow: auto;
 }
 
 .event {
@@ -227,7 +241,8 @@ footer {
 
 section.donations {
   max-width: 475px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #donate {
