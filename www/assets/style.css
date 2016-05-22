@@ -238,3 +238,99 @@ footer {
     padding: 0;
   }
 }
+
+section.donations {
+  max-width: 475px;
+  margin: 0 auto;
+}
+
+#donate {
+  padding: 0 20px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#donate input {
+  border: none;
+  outline: none;
+}
+
+#donate div {
+  display: flex;
+}
+
+#donate > div {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+#donate > div:last-child {
+  border-bottom: none;
+}
+
+#donate .card-meta > div {
+  flex: 1;
+}
+
+#donate input {
+  flex: 1;
+  font-size: 1rem;
+  width: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#donate label {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+#donate .finalize {
+  justify-content: space-between;
+}
+
+#donate .frequency {
+  align-self: flex-start;
+  margin-right: 20px;
+}
+
+#donate .submit {
+  display: block;
+}
+
+#donate input[type="submit"] {
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.33s;
+}
+
+#donate input[disabled] {
+  background-color: white;
+}
+
+#donate input[type="submit"]:hover {
+  background-color: #ccc;
+}
+
+#donate input[type="submit"][disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.donations .notice {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.donations .notice.failure {
+  background-color: #ffbcbd;
+}
+
+.donations .notice.success {
+  background-color: #a0ffa0;
+}
