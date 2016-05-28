@@ -4,7 +4,7 @@ Website for Direct Action Everywhere Philadelphia. This repo is the front-end co
 
 Local Development
 -----------------
-This site runs on a very simple Node.js app server using [Express](http://expressjs.com/) with [Harp](http://harpjs.com/) as middleware. Install Node.js and use `node server.js` to start the server.
+This site runs on a very simple Node.js app server using [Express](http://expressjs.com/) with [Harp](http://harpjs.com/) as middleware. Install Node.js and use `npm run start` to start the server.
 
 Deploying
 ---------
