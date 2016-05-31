@@ -64,8 +64,11 @@ $(document).ready(function(){
       if (start_time || end_time) {
         $(event_time_el).html(start_end_time_string(start_time, end_time));
       }
-      $(event_el).find('.location a span').text(data.place.name);
-      $(event_el).find('.location a').attr('href', 'https://www.google.com/maps/place/'+encodeURIComponent(data.place.name));
+      if (typeof data.place != "undefined") {
+        $(event_el).find('.location a span').text(data.place.name);
+        $(event_el).find('.location a').attr('href', 'https://www.google.com/maps/place/'+encodeURIComponent(data.place.name));
+        $(event_el).find('.location').show();
+      }
       $(event_el).show();
     } else {
       $('#get-notified-button').show();
