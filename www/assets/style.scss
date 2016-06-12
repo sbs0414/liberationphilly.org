@@ -63,6 +63,16 @@ a.button {
   }
 }
 
+a.full-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .subheadline {
   font-size: 18px;
   margin-top: 0;
@@ -72,6 +82,7 @@ a.button {
   font-family: 'Viga', sans-serif;
   text-transform: uppercase;
   margin: 40px 0;
+  position: relative;
   .logo {
     margin: 0 8px;
     img {
