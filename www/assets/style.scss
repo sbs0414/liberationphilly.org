@@ -35,7 +35,7 @@ h1 {
   margin-bottom: 0;
 }
 
-a {
+a[href] {
   text-decoration: none;
   color: #c80e0e;
   transition: color 0.2s;
@@ -44,7 +44,7 @@ a {
   }
 }
 
-a.button {
+a[href].button {
   font-family: 'Viga', sans-serif;
   text-transform: uppercase;
   text-align: center;
