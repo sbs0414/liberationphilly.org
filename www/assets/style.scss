@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: #111;
   margin: 0px;
@@ -18,7 +17,14 @@ h1, h2 {
 
 h1 {
   text-transform: uppercase;
-  margin-bottom: 0;
+  font-size: 4vw;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5vw;
+  text-transform: uppercase;
+  margin-top: 100px;
 }
 
 .header {
@@ -87,6 +93,42 @@ nav ul {
   position: relative;
   filter: brightness(1000%);
 }
+
+.all-content {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.upcoming-events {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.event {
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+}
+
+.info-section p {
+  margin-left: 100px;
+}
+
+
+
+
 
 
 
