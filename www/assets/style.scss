@@ -34,19 +34,19 @@ nav {
   height: 50px;
   background-color: #143ff4;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  text-align: center;
   justify-content: space-around;
-  align-items: center;
-  align-content: center;
   top: 0px;
   margin: 0px;
   padding: 0px;
-  padding-top: 8px;
+  width: 100%;
   font-family: 'Viga', sans-serif;
   font-size: 2vw;
 }
@@ -57,8 +57,11 @@ nav ul {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: inherit;
+  height: 300px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner::after {
