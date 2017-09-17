@@ -57,6 +57,11 @@ nav ul {
   font-size: 1.75vw;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 .banner {
   background-image: url(/assets/images/header-img.jpg);
   background-position: center;
@@ -121,6 +126,7 @@ nav ul {
 .content {
   width: 100%;
   max-width: 1000px;
+  min-height: 600px;
 }
 
 .upcoming-events {
@@ -145,11 +151,6 @@ nav ul {
 }
 
 
-
-
-
-
-
 .social-icons {
   margin: 20px 0;
   a i {
@@ -159,102 +160,31 @@ nav ul {
 }
 
 
-
-section.donations {
-  max-width: 475px;
-  margin-left: auto;
-  margin-right: auto;
+footer {
+  width: 100%;
+  background-color: #143ff4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
-#donate {
-  padding: 0 20px;
-  overflow: auto;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: left;
-  > div {
-    margin: 10px 0;
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-    &:last-child {
-      border-bottom: none;
-    }
-  }
-  .card-meta {
-    display: flex;
-     > div {
-       flex: 1;
-     }
-     input {
-       width: 100%;
-       flex: 1;
-     }
-  }
-  label {
-    padding-right: 20px;
-    font-weight: bold;
-    display: block;
-  }
-  input {
-    border: none;
-    outline: none;
-    flex: 1;
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    &[disabled] {
-      background-color: white;
-    }
-  }
-  input[type="submit"] {
-    padding: 12px 20px;
-    border-radius: 4px;
-    font-weight: bold;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.33s;
-    background-color: #ddd;
-    margin: 0 auto;
-    display: block;
-    &:hover {
-      background-color: #ccc;
-    }
-    &[disabled] {
-      background-color: #ccc;
-      cursor: not-allowed;
-    }
-  }
-  .finalize {
-    justify-content: space-between;
-  }
-  .frequency {
-    align-self: flex-start;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-  .submit {
-    display: block;
-  }
-  @media(min-width: 400px) {
-    div {
-      display: flex;
-    }
-    label {
-      display: inline;
-    }
-    input {
-      width: 0;
-    }
-  }
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
-.notice {
-  padding: 10px;
-  margin: 10px 0;
-  border-radius: 4px;
-  &.failure {
-    background-color: #ffbcbd;
-  }
-  &.success {
-    background-color: #a0ffa0;
-  }
+.footer-tag {
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3vw;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin: -25px auto;
+}
+
+.footer-tag p {
+  margin: 20px auto;
 }
