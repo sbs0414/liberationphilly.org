@@ -232,14 +232,11 @@ nav a.active {
   color: white;
   margin: 10px;
   border-radius: 4px;
-}
-
-.subscribe-button {
   margin: 15px auto;
   padding: 5px;
   text-decoration: none;
-  color: white;
 }
+
 
 .subscribe-button h2 {
   margin: 0px auto;
@@ -254,6 +251,31 @@ nav a.active {
 
 .info-section p {
   margin-left: 100px;
+}
+
+.call-to-action-button {
+  display: block;
+  text-align: center;
+  background-color: #143ff4;
+  color: white;
+  border-radius: 4px;
+  margin: 30px 10px 15px auto;
+  padding: 3px;
+  text-decoration: none;
+  width: 40%;
+}
+
+.call-to-action-button h3 {
+  margin: 0px auto;
+  padding: 2px;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+}
+
+.call-to-action-button:hover {
+  color: #143ff4;
+  background-color: white;
+  border-radius: 4px;
 }
 
 
