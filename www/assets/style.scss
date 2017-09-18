@@ -287,6 +287,27 @@ nav a.active {
   border-radius: 4px;
 }
 
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+.contact-info {
+  width: 30%;
+  margin-bottom: 50px;
+  margin-left: 2%;
+  padding: 5px;
+  background-color: #2F2F2F;
+  color: white;
+  border-radius: 5px;
+}
+
+.contact-info h4,p {
+  padding-left: 10px;
+  margin: 5px auto;
+}
 
 .social-icons {
   margin: 20px 0;
