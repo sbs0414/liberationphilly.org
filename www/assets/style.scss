@@ -27,6 +27,11 @@ h2 {
   margin-top: 100px;
 }
 
+a:hover,
+a.active {
+  color: #143ff4;
+}
+
 .header {
   width: 100%;
   height: 400px;
@@ -60,6 +65,14 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav a:hover,
+nav a.active {
+  color: #143ff4;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .banner {
@@ -85,7 +98,7 @@ nav a {
   color: white;
   text-transform: uppercase;
   font-size: 4vw;
-  z-index: 100;
+  z-index: 25;
 }
 
 .logo-word {
@@ -141,9 +154,71 @@ nav a {
 }
 
 .event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.event-details {
   width: 350px;
-  height: 150px;
+  height: 120px;
   margin: 10px;
+  text-align: center;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.event h3,h4 {
+  margin: 0px;
+}
+
+.signup-button {
+  color: white;
+  background-color: #143ff4;
+  width: 30%;
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.calendar-icon {
+  background-image: url(/assets/images/calendar-icon.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .75;
+  width: 30%;
+  height: 15vw;
+  margin: 15px;
+}
+
+#event-1, #event-3 {
+  border-right-color: #4F4F4F;
+  border-right-width: 3px;
+  border-right-style: solid;
+}
+
+#event-1, #event-2 {
+  border-bottom-color: #4F4F4F;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  margin-top:10px;
+}
+
+.subscribe-button {
+  width: 90%;
+  display: flex;
+  text-align: center;
+  background-color: #143ff4;
+  color: white;
+  margin: 10px;
+}
+
+.subscribe-button h2 {
+  margin: 0px auto;
 }
 
 .info-section p {
@@ -162,6 +237,7 @@ nav a {
 
 footer {
   width: 100%;
+  margin-top: 50px;
   background-color: #143ff4;
   color: white;
   display: flex;
@@ -169,11 +245,16 @@ footer {
   align-content: center;
   align-items: center;
   justify-content: space-around;
+
 }
 
 footer a {
   color: white;
-  text-decoration: none;
+}
+
+footer a:hover,
+footer a.active {
+  color: #FFFF00;
 }
 
 .footer-tag {
@@ -187,4 +268,8 @@ footer a {
 
 .footer-tag p {
   margin: 20px auto;
+}
+
+.social-icons a {
+  text-decoration: none;
 }
