@@ -234,9 +234,22 @@ nav a.active {
   border-radius: 4px;
 }
 
+.subscribe-button {
+  margin: 15px auto;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
 .subscribe-button h2 {
   margin: 0px auto;
   font-size: 3vw;
+}
+
+.subscribe-button:hover {
+  color: #143ff4;
+  background-color: white;
+  border-radius: 4px;
 }
 
 .info-section p {
