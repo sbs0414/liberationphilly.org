@@ -1,16 +1,16 @@
-DxE Philadelphia Website
+Liberation Philadelphia Website
 ========================
-Website for Direct Action Everywhere Philadelphia. This repo is the front-end code, while some dynamic functionality is powered by [dxephilly-api](https://github.com/directactioneverywhere/dxephilly-api).
+Website for Direct Action Everywhere Philadelphia. This repo is the front-end code.
 
 Local Development
 -----------------
-This site runs on a very simple Node.js app server using [Express](http://expressjs.com/) with [Harp](http://harpjs.com/) as middleware. Install Node.js and use `npm run start` to start the server.
+This site runs on a very simple Node.js app server using [Express](http://expressjs.com/) with Wick as middleware to support Nunjucks templating. Use `npm install wick`. Install Node.js and use `npm run start` to start the server.
 
-Deploying
+Deployment
 ---------
-This app is deployed with Dokku. [Learn about](https://github.com/directactioneverywhere/dxe-learn2dokku) how DxE Tech deploys with Dokku. The Dokku git remote is:
+This site is deployed with Surge.
 
-    dokku@dxephilly.org:dxephilly.org
+
 
 License
 =======
