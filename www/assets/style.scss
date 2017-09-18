@@ -7,6 +7,7 @@ body {
   color: #111;
   margin: 0px;
   padding: 0px;
+  font-size: 20px;
 }
 
 
@@ -134,12 +135,14 @@ nav a.active {
   padding: 0px 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content {
   width: 100%;
   max-width: 1000px;
   min-height: 600px;
+  margin: 0 auto;
 }
 
 .upcoming-events {
@@ -161,14 +164,14 @@ nav a.active {
 }
 
 .event-details {
-  width: 350px;
-  height: 120px;
+  width: 400px;
+  height: 110px;
   margin: 10px;
   text-align: center;
   margin: 0px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -190,7 +193,7 @@ nav a.active {
   background-size: contain;
   background-repeat: no-repeat;
   opacity: .75;
-  width: 30%;
+  width: 25%;
   height: 15vw;
   margin: 15px;
 }
@@ -219,6 +222,7 @@ nav a.active {
 
 .subscribe-button h2 {
   margin: 0px auto;
+  font-size: 3vw;
 }
 
 .info-section p {
@@ -245,7 +249,7 @@ footer {
   align-content: center;
   align-items: center;
   justify-content: space-around;
-
+  font-size: 12px;
 }
 
 footer a {
@@ -266,8 +270,9 @@ footer a.active {
   margin: -25px auto;
 }
 
-.footer-tag p {
+.footer-tag h2 {
   margin: 20px auto;
+  font-size: 4vw;
 }
 
 .social-icons a {
