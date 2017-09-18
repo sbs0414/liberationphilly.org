@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-size: 5vw;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 a:hover,
@@ -151,6 +151,7 @@ nav a.active {
   width: 100%;
   height: auto;
   margin: 0 auto;
+  margin-bottom: 150px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -254,6 +255,11 @@ nav a.active {
 .info-section p {
   margin-left: 100px;
 }
+
+.info-section {
+  margin-bottom: 150px;
+}
+
 
 .call-to-action-button {
   display: block;
