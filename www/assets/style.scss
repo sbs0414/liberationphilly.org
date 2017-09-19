@@ -244,10 +244,10 @@ nav a.active {
 
 @media (max-width: 650px) {
   .upcoming-events {
-    margin: none;
     display: block;
     text-align: left;
     padding: 5px;
+    margin-bottom: 50px;
   }
 }
 
@@ -458,8 +458,21 @@ nav a.active {
   margin-bottom: 20px;
 }
 
+@media (max-width: 650px) {
+  .info-section p {
+    margin-left: 0px;
+    font-size: 18px;
+  }
+}
+
 .info-section {
   margin-bottom: 150px;
+}
+
+@media (max-width: 650px) {
+  .info-section {
+    margin-bottom: 50px;
+  }
 }
 
 
@@ -478,11 +491,24 @@ nav a.active {
   border-style: solid;
 }
 
+@media (max-width: 650px) {
+.call-to-action-button {
+  width: 70%;
+  }
+}
+
+
 .call-to-action-button h3 {
   margin: 0px auto;
   padding: 2px;
   font-size: 2vw;
   text-transform: uppercase;
+}
+
+@media (max-width: 650px) {
+.call-to-action-button h3 {
+  font-size: 16px;
+  }
 }
 
 .call-to-action-button:hover {
