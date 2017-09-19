@@ -90,7 +90,7 @@ nav ul {
 
 @media (max-width: 704px) {
   nav ul {
-    font-size: 11px;
+    font-size: 12px;
     align-items: center;
   }
 }
@@ -262,7 +262,7 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .upcoming-events {
 
   }
@@ -284,9 +284,9 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .event {
-    padding-left: 5px;
+    padding-left: 25px;
     height: 175px;
 
   }
@@ -315,7 +315,7 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .event-details {
     width: 265px;
   }
@@ -325,14 +325,14 @@ nav a.active {
   margin: 0px;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .event h3 {
     font-size: 20px;
 
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .event h4 {
     font-size: 16px;
   }
@@ -363,7 +363,7 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   .signup-button h3 {
     font-size: 14px;
   }
@@ -430,7 +430,7 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px){
   #event-3, #event-4 {
 
   }
@@ -505,7 +505,7 @@ nav a.active {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 980px) and (min-width: 705px)and (min-width: 705px){
   .view-more {
     width: 50%;
     text-align: center;
