@@ -29,6 +29,13 @@ h2 {
   margin-top: 70px;
 }
 
+@media (max-width: 650px) {
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+}
+
 a:hover,
 a.active {
   color: #143ff4;
@@ -204,11 +211,23 @@ nav a.active {
   align-items: center;
 }
 
+@media (max-width: 650px) {
+  .all-content {
+    padding: 10px;
+    width: 90%
+  }
+}
+
 .content {
   width: 100%;
   max-width: 1000px;
   min-height: 600px;
   margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  .content {
+  }
 }
 
 .upcoming-events {
@@ -223,12 +242,29 @@ nav a.active {
   justify-content: center;
 }
 
+@media (max-width: 650px) {
+  .upcoming-events {
+    margin: none;
+    display: block;
+    text-align: left;
+    padding: 5px;
+  }
+}
+
 .event {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   padding-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .event {
+    margin: 0px;
+    display: block;
+    text-align: left;
+  }
 }
 
 .event-details {
@@ -244,9 +280,26 @@ nav a.active {
   margin-bottom: -10px;
 }
 
+@media (max-width: 650px) {
+  .event-details {
+    margin-bottom: none;
+    width: inherit;
+    height: auto;
+    padding: none;
+    display: inline;
+    text-align: left;
+  }
+}
+
 .event h3,h4 {
   margin: 0px;
 }
+
+@media (max-width: 650px) {
+  .event h3,h4 {
+  }
+}
+
 
 .signup-button {
   color: white;
@@ -259,6 +312,17 @@ nav a.active {
   border-radius: 4px;
   border-color: #143ff4;
   border-style: solid;
+}
+
+@media (max-width: 650px) {
+  .signup-button {
+    margin: 0px;
+    margin-top: 20px;
+    padding: none;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+  }
 }
 
 .signup-button:hover,
@@ -280,6 +344,14 @@ nav a.active {
   margin-right: -12px;
 }
 
+@media (max-width: 650px) {
+  .calendar-icon {
+    display: none;
+    margin: none;
+    padding: none;
+  }
+}
+
 #event-1, #event-3 {
   border-right-color: #4F4F4F;
   border-right-width: 3px;
@@ -291,6 +363,21 @@ nav a.active {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   margin-top:10px;
+}
+
+@media (max-width: 650px) {
+  #event-3, #event-4 {
+    border: none;
+    margin: none;
+    padding: none;
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  #event-1 {
+    border-right: none;
+  }
 }
 
 
@@ -315,11 +402,56 @@ nav a.active {
   font-size: 3vw;
 }
 
+@media (max-width: 650px) {
+  .subscribe-button h2 {
+    font-size: 18px;
+  }
+}
+
 .subscribe-button:hover {
   color: #143ff4;
   background-color: white;
   border-radius: 4px;
 }
+
+.view-more {
+  margin: 10px 50px 10px;
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.view-more h2 {
+  margin: 0px auto;
+}
+
+@media (max-width: 650px) {
+  .view-more h2 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .view-more {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #143ff4;
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+    margin: 15px auto;
+    padding: 5px;
+    text-decoration: none;
+    border-color: #143ff4;
+    border-style: solid;
+    text-transform: uppercase;
+  }
+}
+
 
 .info-section p {
   margin-left: 100px;
