@@ -11,6 +11,17 @@ body {
   background-color: #F8F8F8;
 }
 
+@media (max-width: 704px) {
+  body p {
+    font-size: 16px;
+  }
+}
+
+
+
+.content {
+  padding-left: 20px;
+}
 
 h1, h2 {
   font-family: 'Viga', sans-serif;
@@ -204,21 +215,21 @@ nav a.active {
 }
 
 
-.all-content {
-  padding: 0px 40px;
+.home-content {
+  padding: 0px 20px 0px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @media (max-width: 704px) {
-  .all-content {
+  .home-content {
     padding: 10px;
     width: 90%
   }
 }
 
-.content {
+.home-events-and-text {
   width: 100%;
   max-width: 1000px;
   min-height: 600px;
@@ -226,7 +237,7 @@ nav a.active {
 }
 
 @media (max-width: 704px) {
-  .content {
+  .home-events-and-text {
   }
 }
 
@@ -636,6 +647,12 @@ footer {
   align-items: center;
   justify-content: space-around;
   font-size: 12px;
+}
+
+@media (max-width: 704px) {
+  footer p {
+    font-size: 10px;
+  }
 }
 
 footer a {
