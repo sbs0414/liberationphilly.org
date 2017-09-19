@@ -614,6 +614,14 @@ nav a.active {
   border-radius: 5px;
 }
 
+@media (max-width: 704px) {
+  .contact-info {
+    width: 75%;
+    margin-bottom: 20px;
+
+  }
+}
+
 .contact-info h4,p {
   padding-left: 10px;
   margin: 5px auto;
