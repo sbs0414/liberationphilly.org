@@ -4,7 +4,8 @@
   "description": "Website for Direct Action Everywhere Philadelphia",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "./node_modules/.bin/wick compile www _build && ./node_modules/.bin/surge _build liberationphilly.surge.sh"
   },
   "repository": {
     "type": "git",
