@@ -29,7 +29,7 @@ h2 {
   margin-top: 70px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   h2 {
     margin-top: 20px;
     font-size: 24px;
@@ -49,7 +49,7 @@ a.active {
   top: 0px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .header {
     height: 150px;
   }
@@ -77,7 +77,7 @@ nav ul {
   font-size: 1.75vw;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   nav ul {
     font-size: 11px;
     align-items: center;
@@ -97,7 +97,7 @@ nav a.active {
   border-radius: 4px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   nav {
     display: flex;
     position: fixed;
@@ -118,14 +118,14 @@ nav a.active {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .pagebanner {
     display: block;
     text-align: center;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   nav a{
     display: block;
     width: 100%;
@@ -145,7 +145,7 @@ nav a.active {
   display: flex;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .banner {
     height: 150px;
   }
@@ -168,7 +168,7 @@ nav a.active {
   text-shadow: 2px 2px #111;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .text-logo {
     height: 150px;
   }
@@ -211,7 +211,7 @@ nav a.active {
   align-items: center;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .all-content {
     padding: 10px;
     width: 90%
@@ -225,7 +225,7 @@ nav a.active {
   margin: 0 auto;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .content {
   }
 }
@@ -242,12 +242,18 @@ nav a.active {
   justify-content: center;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .upcoming-events {
     display: block;
     text-align: left;
     padding: 5px;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 980px) {
+  .upcoming-events {
+
   }
 }
 
@@ -259,11 +265,19 @@ nav a.active {
   padding-left: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .event {
     margin: 0px;
     display: block;
     text-align: left;
+  }
+}
+
+@media (max-width: 980px) {
+  .event {
+    padding-left: 5px;
+    height: 175px;
+
   }
 }
 
@@ -280,14 +294,19 @@ nav a.active {
   margin-bottom: -10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .event-details {
     margin-bottom: none;
     width: inherit;
-    height: auto;
     padding: none;
     display: inline;
     text-align: left;
+  }
+}
+
+@media (max-width: 980px) {
+  .event-details {
+    width: 265px;
   }
 }
 
@@ -295,8 +314,16 @@ nav a.active {
   margin: 0px;
 }
 
-@media (max-width: 650px) {
-  .event h3,h4 {
+@media (max-width: 980px) {
+  .event h3 {
+    font-size: 20px;
+
+  }
+}
+
+@media (max-width: 980px) {
+  .event h4 {
+    font-size: 16px;
   }
 }
 
@@ -314,7 +341,7 @@ nav a.active {
   border-style: solid;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .signup-button {
     margin: 0px;
     margin-top: 20px;
@@ -322,6 +349,12 @@ nav a.active {
     font-size: 16px;
     width: 150px;
     text-align: center;
+  }
+}
+
+@media (max-width: 980px) {
+  .signup-button h3 {
+    font-size: 14px;
   }
 }
 
@@ -344,11 +377,17 @@ nav a.active {
   margin-right: -12px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .calendar-icon {
     display: none;
     margin: none;
     padding: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .calendar-icon {
+    display: none;
   }
 }
 
@@ -365,7 +404,7 @@ nav a.active {
   margin-top:10px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   #event-3, #event-4 {
     border: none;
     margin: none;
@@ -374,9 +413,15 @@ nav a.active {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   #event-1 {
     border-right: none;
+  }
+}
+
+@media (max-width: 980px) {
+  #event-3, #event-4 {
+
   }
 }
 
@@ -402,11 +447,13 @@ nav a.active {
   font-size: 3vw;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .subscribe-button h2 {
     font-size: 18px;
   }
 }
+
+
 
 .subscribe-button:hover {
   color: #143ff4;
@@ -415,8 +462,8 @@ nav a.active {
 }
 
 .view-more {
-  background-color: white;
-  color: #143ff4;
+  background-color: #143ff4;
+  color: white;
   width: 30%;
   margin: 20px;
   padding: 4px 20px;
@@ -428,24 +475,7 @@ nav a.active {
   margin-bottom: 0px;
 }
 
-.view-more:hover {
-  background-color: #143ff4;
-  color: white;
-  border-radius: 4px;
-}
-
-.view-more h2 {
-  margin: 0px auto;
-  font-size: 16px;
-}
-
-@media (max-width: 650px) {
-  .view-more h2 {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .view-more {
     width: 90%;
     display: flex;
@@ -464,13 +494,38 @@ nav a.active {
   }
 }
 
+@media (max-width: 980px) {
+  .view-more {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.view-more:hover {
+  color: #143ff4;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.view-more h2 {
+  margin: 0px auto;
+  font-size: 16px;
+}
+
+@media (max-width: 704px) {
+  .view-more h2 {
+    font-size: 16px;
+  }
+}
+
+
 
 .info-section p {
   margin-left: 100px;
   margin-bottom: 20px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .info-section p {
     margin-left: 0px;
     font-size: 18px;
@@ -481,7 +536,7 @@ nav a.active {
   margin-bottom: 150px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
   .info-section {
     margin-bottom: 50px;
   }
@@ -503,7 +558,7 @@ nav a.active {
   border-style: solid;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
 .call-to-action-button {
   width: 70%;
   }
@@ -517,7 +572,7 @@ nav a.active {
   text-transform: uppercase;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 704px) {
 .call-to-action-button h3 {
   font-size: 16px;
   }
