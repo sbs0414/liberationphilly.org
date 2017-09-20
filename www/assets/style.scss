@@ -453,7 +453,6 @@ nav a.active {
   cursor: pointer;
 }
 
-
 .subscribe-button h2 {
   margin: 0px auto;
   font-size: 3vw;
@@ -464,8 +463,6 @@ nav a.active {
     font-size: 18px;
   }
 }
-
-
 
 .subscribe-button:hover {
   color: #143ff4;
@@ -534,11 +531,11 @@ nav a.active {
   display: none;
   width: 400px;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: white;
   border-radius: 10px;
   position: absolute;
   right: 200px;
-  border: #fff 4px solid;
+  border: #143ff4 4px solid;
   text-align: center;
 }
 
@@ -551,10 +548,10 @@ nav a.active {
     position: absolute;
     margin: 0 auto;
     right: auto;
-    top: 100px;
+    top: 50px;
     right: 20px;
     width: 350px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: white;
     align-items: center;
   }
 }
@@ -565,7 +562,32 @@ h3#form {
 
 .close {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
+  border-style: solid;
+  color: #143ff4;
+  background-color: white;
+  border-color: #143ff4;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  right: 2px;
+}
+
+.close p {
+  margin: 0px;
+  padding: 1px;
+  font-size: 16px;
+}
+
+.close:hover {
+  color: white;
+  background-color: #143ff4;
+  border-color: #143ff4;
 }
 
 .info-section p {
