@@ -67,9 +67,10 @@
         </div>
       </div>
 
-      <div class="button subscribe-button" id="updates" onclick="showDiv()">
-        <h2>Subscribe to Events</h2>
-      </div>
+      <form method="post" id="subscribe-form">
+        <input id="email-field" type="text" name="email" value="yourname@email.com" onclick="clearField()">
+        <input class="subscribe-button" type="submit" value="Subscribe to events">
+      </form>
 
       <div class="form_div" id="hidden_form">
         <h3>Sign up for an Event</h3>
