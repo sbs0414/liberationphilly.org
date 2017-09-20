@@ -113,7 +113,7 @@ nav a.active {
     display: flex;
     position: fixed;
     bottom: 0;
-    z-index: 999;
+    z-index: 50;
     left: 0;
     right: 0;
     font-size: 14px;
@@ -536,6 +536,7 @@ nav a.active {
   position: absolute;
   border: #143ff4 4px solid;
   text-align: center;
+  z-index: 200;
 }
 
 .form_div h3 {
@@ -588,6 +589,21 @@ h3#form {
   background-color: #143ff4;
   border-color: #143ff4;
 }
+
+#dim-box {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    z-index: 100;
+    display: none;
+}
+
+
 
 .info-section p {
   margin-left: 100px;
