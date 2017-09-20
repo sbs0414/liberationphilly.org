@@ -450,6 +450,7 @@ nav a.active {
   text-decoration: none;
   border-color: #143ff4;
   border-style: solid;
+  cursor: pointer;
 }
 
 
@@ -529,7 +530,43 @@ nav a.active {
   }
 }
 
+.form_div {
+  display: none;
+  width: 400px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  position: absolute;
+  right: 200px;
+  border: #fff 4px solid;
+  text-align: center;
+}
 
+.form_div h3 {
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .form_div {
+    position: absolute;
+    margin: 0 auto;
+    right: auto;
+    top: 100px;
+    right: 20px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+  }
+}
+
+h3#form {
+  text-align: center;
+}
+
+.close {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .info-section p {
   margin-left: 100px;
