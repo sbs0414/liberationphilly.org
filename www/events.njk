@@ -38,8 +38,9 @@
   <p>RSVP to get event updates.<p>
 </div>
 
-<a href="" class="subscribe-button">
-  <h2>Subscribe to Events</h2>
-</a>
+<form method="post" id="subscribe-form">
+  <input id="email-field" type="text" name="email" value="yourname@email.com" onclick="clearField()">
+  <input class="subscribe-button" type="submit" value="Subscribe to events">
+</form>
 
 {% endblock %}
