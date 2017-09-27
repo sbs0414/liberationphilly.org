@@ -412,12 +412,16 @@ nav a.active {
   cursor: pointer;
 }
 
+.signup-button h3 {
+  font-size: 14px;
+}
+
 @media (max-width: 704px) {
   .signup-button {
     margin: 0px;
     margin-top: 20px;
     padding: none;
-    font-size: 16px;
+    font-size: 14px;
     width: 150px;
     text-align: center;
   }
@@ -425,7 +429,7 @@ nav a.active {
 
 @media (max-width: 980px) and (min-width: 705px){
   .signup-button h3 {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
   }
 }

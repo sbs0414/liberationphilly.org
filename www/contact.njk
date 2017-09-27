@@ -16,21 +16,15 @@
   </div>
 
   <div class="contact-info">
-    <h4>Protests</h4>
-    <p>Mary Kate Fain</p>
-    <p>mkfain1@gmail.com</p>
-  </div>
-
-  <div class="contact-info">
-    <h4>Philly Farmed Animal Save</h4>
+    <h4>Community Outreach</h4>
     <p>Mahika Gupta</p>
     <p>email@gmail.com</p>
   </div>
 
   <div class="contact-info">
-    <h4>Sanctuary Volunteering</h4>
-    <p>Mansi Bahgwatte</p>
-    <p>email@gmail.com</p>
+    <h4>Protests</h4>
+    <p>Mary Kate Fain</p>
+    <p>mkfain1@gmail.com</p>
   </div>
 
   <div class="contact-info">
@@ -39,6 +33,14 @@
     <p>email@gmail.com</p>
   </div>
 
+
+  <div class="contact-info">
+    <h4>Sanctuary Volunteering</h4>
+    <p>Mansi Bahgwatte</p>
+    <p>email@gmail.com</p>
+  </div>
+
+
   <div class="contact-info">
     <h4>Donor questions</h4>
     <p>Alex Gleason</p>
@@ -46,14 +48,16 @@
   </div>
 
   <div class="contact-info">
-    <h4>Community Outreach</h4>
-    <p>Mahika Gupta</p>
-    <p>email@gmail.com</p>
+    <h4>Philly Farmed Animal Save</h4>
+    <p>Mary Kate Fain</p>
+    <p>mkfain1@gmail.com</p>
   </div>
+
 </div>
 
-<a href="" class="subscribe-button">
-  <h2>Get Email Updates</h2>
-</a>
+<form method="post" id="subscribe-form">
+  <input id="email-field" type="text" name="email" value="yourname@email.com" onclick="clearField()">
+  <input class="subscribe-button" type="submit" value="Subscribe to events">
+</form>
 
 {% endblock %}
