@@ -20,7 +20,7 @@
   "dependencies": {
     "bxslider": "^4.2.6",
     "express": "^4.13.4",
-    "harp": "latest",
+    "wick": "latest",
     "jquery.payment": "^1.4.1"
   }
 }
