@@ -368,10 +368,11 @@ nav a.active {
 
 @media (max-width: 704px) {
   .event-details {
-    margin-bottom: none;
+    margin-bottom: 10px;
     width: inherit;
-    padding: none;
-    display: inline;
+    padding: 0;
+    display: block;
+    height: auto;
     text-align: left;
   }
 }
