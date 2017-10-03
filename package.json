@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "deploy": "./node_modules/.bin/wick compile www _build && ./node_modules/.bin/surge _build liberationphilly.surge.sh"
+    "deploy": "./node_modules/.bin/wick compile www _build && scp -r _build/* root@box.liberationphilly.org:/home/user-data/www/liberationphilly.org/"
   },
   "repository": {
     "type": "git",
