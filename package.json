@@ -18,9 +18,7 @@
   },
   "homepage": "https://github.com/directactioneverywhere/dxephilly.org#readme",
   "dependencies": {
-    "bxslider": "^4.2.6",
     "express": "^4.13.4",
-    "wick": "latest",
-    "jquery.payment": "^1.4.1"
+    "wick": "latest"
   }
 }
