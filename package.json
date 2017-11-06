@@ -1,7 +1,7 @@
 {
   "name": "dxephilly.org",
   "version": "1.0.0",
-  "description": "Website for Direct Action Everywhere Philadelphia",
+  "description": "Website for Liberation Philadelphia",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
