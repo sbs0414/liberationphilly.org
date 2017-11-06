@@ -17,8 +17,6 @@ body {
   }
 }
 
-
-
 .content {
   padding-left: 20px;
 }
@@ -755,8 +753,13 @@ h3#form {
 
 .event-page-item {
   margin-bottom: 75px;
-  max-width: 75%;
+  max-width: 80%;
   margin-left: 40px;
+}
+
+
+.event-page-item p {
+  margin-bottom: 20px;
 }
 
 .social-icons {
@@ -765,6 +768,23 @@ h3#form {
     font-size: 36px;
     padding: 4px;
   }
+}
+
+.save-page {
+}
+
+.save-page .event-page-item {
+  width: 80%;
+}
+
+.about-save {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.save-page p {
+  margin-bottom: 20px;
 }
 
 
