@@ -352,7 +352,6 @@ nav a.active {
   .event {
     padding-left: 25px;
     height: 175px;
-
   }
 }
 
@@ -393,7 +392,6 @@ nav a.active {
 @media (max-width: 980px) and (min-width: 705px){
   .event h3 {
     font-size: 20px;
-
   }
 }
 
@@ -425,7 +423,7 @@ nav a.active {
   .signup-button {
     margin: 0px;
     margin-top: 20px;
-    padding: none;
+
     font-size: 14px;
     width: 150px;
     text-align: center;
@@ -461,8 +459,6 @@ nav a.active {
 @media (max-width: 704px) {
   .calendar-icon {
     display: none;
-    margin: none;
-    padding: none;
   }
 }
 
@@ -488,8 +484,8 @@ nav a.active {
 @media (max-width: 704px) {
   #event-3, #event-4 {
     border: none;
-    margin: none;
-    padding: none;
+
+
     display: none;
   }
 }
