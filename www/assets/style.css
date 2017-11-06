@@ -45,8 +45,12 @@ h2 {
   }
 }
 
-a:hover,
 a.active {
+  color: #143ff4;
+  transition: .3s;
+}
+
+a:hover {
   color: #143ff4;
   transition: .3s;
 }
