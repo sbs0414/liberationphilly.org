@@ -449,7 +449,7 @@ nav a.active {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: .75;
+  opacity: .40;
   width: 25%;
   height: 15vw;
   margin: 15px;
@@ -469,13 +469,13 @@ nav a.active {
 }
 
 #event-1, #event-3 {
-  border-right-color: #4F4F4F;
+  border-right-color: #838383;
   border-right-width: 3px;
   border-right-style: solid;
 }
 
 #event-1, #event-2 {
-  border-bottom-color: #4F4F4F;
+  border-bottom-color: #838383;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   margin-top:10px;
