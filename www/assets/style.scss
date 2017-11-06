@@ -50,6 +50,7 @@ h2 {
 a:hover,
 a.active {
   color: #143ff4;
+  transition: .3s;
 }
 
 .header {
@@ -754,10 +755,9 @@ h3#form {
 
 .event-page-item {
   margin-bottom: 75px;
+  max-width: 75%;
+  margin-left: 40px;
 }
-
-
-
 
 .social-icons {
   margin: 20px 0;
