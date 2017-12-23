@@ -4,7 +4,11 @@ Website for Liberation Philadelphia.
 
 Local Development
 -----------------
-This site runs on a very simple Node.js app server using [Express](http://expressjs.com/) with Wick as middleware to support Nunjucks templating. Install Node.js and run `npm install` in the directory initially, then use `npm run start` to start the server.
+Follow these steps:
+
+1. Install Docker. Typically you can run this command in your terminal: `wget -nv -O - https://get.docker.com/ | sh`
+2. Clone this repo and `cd` into it. Run `make start`
+3. Wait patiently for everything to download. At the end, open `localhost:5000` in your browser.
 
 License
 =======

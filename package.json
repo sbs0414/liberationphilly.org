@@ -1,24 +1,23 @@
 {
-  "name": "dxephilly.org",
+  "name": "liberationphilly.org",
   "version": "1.0.0",
   "description": "Website for Liberation Philadelphia",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "./node_modules/.bin/wick server -i 0.0.0.0 -p 5000 www",
     "deploy": "./node_modules/.bin/wick compile www _build && scp -r _build/* root@box.liberationphilly.org:/home/user-data/www/liberationphilly.org/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/directactioneverywhere/dxephilly.org.git"
+    "url": "git+https://github.com/liberationphilly/liberationphilly.org.git"
   },
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/directactioneverywhere/dxephilly.org/issues"
+    "url": "https://github.com/liberationphilly/liberationphilly.org/issues"
   },
-  "homepage": "https://github.com/directactioneverywhere/dxephilly.org#readme",
+  "homepage": "https://github.com/liberationphilly/liberationphilly.org#readme",
   "dependencies": {
-    "express": "^4.13.4",
     "wick": "latest"
   }
 }
